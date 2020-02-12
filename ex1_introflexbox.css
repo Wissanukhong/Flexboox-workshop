@@ -22,12 +22,29 @@
 
 .container-box{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 20px;
 }
 
-.container-box{
-    width: 300px;
-    height: 150px;
-    background: red;
+.box-content{
+    width: 700px;
+    background: #a5a5a5;
+    padding: 20px;
+    box-shadow: 5px 5px 40px 10px rgba(214,214, 214, 1);
+    border-radius: 4px;
+}
 
+.box-content h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-content p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.box-content ul{
+    font-size: 18px;
+    padding: 10px;
 }
