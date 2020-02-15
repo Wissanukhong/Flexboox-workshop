@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(rgb(255, 195, 0),rgb(255, 87, 51 ));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head ol{
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 50vh;
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box{
+    width: 20px;
+    height: 20px;
+    background: green;
+    margin: 10px;
+}
