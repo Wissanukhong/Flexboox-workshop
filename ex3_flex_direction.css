@@ -48,8 +48,6 @@
     width: 100%;
     height: 250px;
     background: linear-gradient(rgb(255, 195, 0),rgb(255, 87, 51 ));
-    display: flex;
-    justify-content: center;
 }
 
 .header-footer{
@@ -57,5 +55,20 @@
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-    padding-top: 30px;
+    padding: 30px;
+}
+
+.text-footer{
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    
 }
