@@ -6,10 +6,12 @@
 Dispaly Flex เราใช้คำสั่งนี้เพื่อเป็นบอกให้โปรแกรมทราบว่า ตอนนี้เรากำลังจะทำการจัดตำแหน่งเป็น Flexbox โดยมีคำสั่ง ดังนี้  
 ใช้คำสั่ง `display: flex;` วัตถุก็จะทำการจัดตำแหน่งเป็นแบบ Flex
 
-|Index|Syntax|Description|
-|---|---|---|
-|01|Property|Value|
-|02|Property|Value|
+<div align="center">
+  |Index|Syntax|Description|
+  |---|---|---|
+  |01|Property|Value|
+  |02|Property|Value|
+</div>
 
 ```css
 .container {
