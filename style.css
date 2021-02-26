@@ -1,0 +1,81 @@
+/* 
+Google Font
+font-family: 'Roboto', sans-serif;
+font-weight: 100, 300;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navigation {
+  font-size: 1.5rem;
+  background-color: red;
+  width: 25%;
+}
+
+.main {
+  font-size: 1.5rem;
+  background-color: aqua;
+  width: 50%;
+}
+
+.complementary-container {
+  padding: 0.8rem 0;
+}
+
+.complementary {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.complementary h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 1rem;
+}
