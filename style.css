@@ -32,11 +32,43 @@ html {
   width: 100%;
 }
 
-.navigation {
-  font-size: 1.5rem;
-  background-color: red;
-  width: 25%;
+/* ----------- navaigation -----------*/
+.navigation-container {
+  padding: 0.8rem 0;
 }
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.navigation-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.navigation-icon i {
+  font-size: 3rem;
+  color: #1877f2;
+  margin-right: 2rem;
+}
+
+.navigation-icon p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.navigation h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* ----------- End of navaigation -----------*/
 
 .main {
   font-size: 1.5rem;
@@ -44,6 +76,7 @@ html {
   width: 50%;
 }
 
+/* ----------- Complementary -----------*/
 .complementary-container {
   padding: 0.8rem 0;
 }
@@ -79,3 +112,5 @@ html {
   font-weight: 300;
   margin-left: 1rem;
 }
+
+/* ----------- End of Complementary -----------*/
