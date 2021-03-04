@@ -32,6 +32,18 @@ html {
   width: 100%;
 }
 
+/* ---------- Navbar head ------------- */
+.navbar-head-container {
+  width: 100%;
+  height: 5rem;
+  background-color: red;
+  position: sticky;
+  top: 0;
+  padding: 0 5.5rem;
+}
+
+/* ---------- End Navbar head --------- */
+
 /* ----------- navaigation -----------*/
 .navigation-container {
   padding: 0.8rem 0;
