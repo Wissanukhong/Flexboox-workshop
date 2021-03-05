@@ -157,8 +157,36 @@ html {
 
 .main {
   font-size: 1.5rem;
-  background-color: aqua;
+  background-color: #fff;
   width: 50%;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  background-color: #e4e6e8;
+  border-radius: 1.8rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.card-container-story {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border-top-left-radius: 1.8rem;
+  border-top-right-radius: 1.8rem;
+  border-bottom-left-radius: 1.8rem;
+  border-bottom-right-radius: 1.8rem;
+}
+
+.card-container-story-profile {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* ----------- Complementary -----------*/
