@@ -30,6 +30,7 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
+  justify-content: space-around;
 }
 
 /* ---------- Navbar ------------- */
@@ -95,7 +96,7 @@ html {
   margin: 1rem;
 }
 
-.navbar-messenger h3 {
+.search-friend h3 {
   padding: 0 0.5rem;
   font-size: 1.5rem;
   color: #000;
@@ -172,6 +173,8 @@ html {
 }
 
 .card-container-story {
+  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -189,6 +192,12 @@ html {
   object-fit: cover;
 }
 
+.navbar-profile-name {
+  position: absolute;
+  bottom: 1rem;
+  color: #fff;
+  font-weight: 900;
+}
 /* ----------- Complementary -----------*/
 .complementary-container {
   padding: 0.8rem 0;
