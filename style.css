@@ -283,6 +283,49 @@ html {
   width: 100%;
 }
 
+/* post card */
+.container-post-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90rem;
+  background-color: #e4e6e8;
+  border-radius: 1.8rem;
+  margin: 1rem;
+}
+
+.text-post {
+  font-size: 2rem;
+  color: #000;
+  margin: 0 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.container-img-post {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.img-post {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-emotional ul {
+  display: flex;
+  flex-direction: row;
+  width: 100;
+  justify-content: space-around;
+}
+
+.container-emotional i {
+  margin: 1rem;
+  font-size: 3rem;
+  color: #1877f2;
+}
+
 /* ----------- Complementary -----------*/
 .complementary-container {
   padding: 0.8rem 0;
