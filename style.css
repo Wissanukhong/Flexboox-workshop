@@ -1,7 +1,7 @@
 /* 
 Google Font
 font-family: 'Roboto', sans-serif;
-font-weight: 100, 300;
+font-weight: 100, 300, 700;
 */
 
 * {
@@ -16,6 +16,11 @@ font-weight: 100, 300;
 html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
+}
+
+/* test background */
+.bg-red {
+  background-color: red !important;
 }
 
 .container {
@@ -33,7 +38,7 @@ html {
   justify-content: space-around;
 }
 
-/* ---------- Navbar ------------- */
+/* --------------- Navbar --------------- */
 .navbar-container {
   height: 5rem;
   background-color: #fff;
@@ -52,6 +57,7 @@ html {
   flex-direction: row;
   align-items: center;
 }
+
 .navbar-facebook-logo-search i {
   font-size: 4rem;
   color: #1877f2;
@@ -117,7 +123,6 @@ html {
   object-fit: cover;
   top: 0;
 }
-/* ---------- End Navbar head --------- */
 
 /* ----------- navaigation -----------*/
 .navigation-container {
@@ -155,8 +160,7 @@ html {
   margin-bottom: 2rem;
 }
 
-/* ----------- End of navaigation -----------*/
-
+/* --------------- main ---------------  */
 .main {
   font-size: 1.5rem;
   background-color: #fff;
@@ -226,10 +230,43 @@ html {
   border-bottom-right-radius: 1.8rem;
 }
 
-.card-container-post ul li i {
-  font-size: 3rem;
+.card-container-post-feel {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.card-container-post-feel-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.card-container-post-feel-list li {
+  display: flex;
+  align-items: center;
+}
+
+.card-container-post-feel-list i {
+  font-size: 3.5rem;
   color: #1877f2;
-  margin-right: 2rem;
+  margin: 0 1rem;
+}
+
+/* Customize icon color */
+.fa-video-customize-color {
+  color: #e42645 !important;
+}
+
+.fa-file-image-customize-color {
+  color: #54ba6d !important;
+}
+
+.fa-smile-customize-color {
+  color: #eed28e !important;
 }
 
 .post {
@@ -245,6 +282,7 @@ html {
   border-top-right-radius: 1.8rem;
   width: 100%;
 }
+
 /* ----------- Complementary -----------*/
 .complementary-container {
   padding: 0.8rem 0;
@@ -281,5 +319,3 @@ html {
   font-weight: 300;
   margin-left: 1rem;
 }
-
-/* ----------- End of Complementary -----------*/
