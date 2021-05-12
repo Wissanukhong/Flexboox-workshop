@@ -24,3 +24,7 @@
 ## install react-router-dom
 
 - npm install react-router-dom
+
+## CSS Note
+
+- backgrount-color: transparent; // คือค่าเริ่มต้นเป็นโปร่งใส่
